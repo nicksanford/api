@@ -84,7 +84,6 @@ message BoundingBox {
 message SensorMetadata {
   google.protobuf.Timestamp time_requested = 1;
   google.protobuf.Timestamp time_received = 2;
-  // TODO: Make this an enum
   string mime_type = 3;
   repeated string tags = 4;
   repeated BoundingBox bounding_boxes = 5;
